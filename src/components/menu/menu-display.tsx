@@ -112,7 +112,7 @@ export default function MenuDisplay() {
                   {/* Image Placeholder with Gradient */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
                   <img
-                    src={`https://source.unsplash.com/featured/?${item.name},food`}
+                    src={item.image}
                     alt={item.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
