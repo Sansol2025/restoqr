@@ -23,7 +23,7 @@ export const MENU_DATA: MenuItem[] = [
     description: 'Queso provolone fundido con orégano y aceite de oliva virgen.',
     price: 2500,
     category: 'Entradas',
-    image: 'https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?q=80&w=2070&auto=format&fit=crop'
+    image: '/images/provoleta.jpg'
   },
   {
     id: 'e3',
@@ -31,7 +31,7 @@ export const MENU_DATA: MenuItem[] = [
     description: 'Anillos de calamar rebozados con alioli de lima.',
     price: 3200,
     category: 'Entradas',
-    image: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?q=80&w=2070&auto=format&fit=crop'
+    image: '/images/rabas.jpg'
   },
   // Parrilla
   {
@@ -48,7 +48,7 @@ export const MENU_DATA: MenuItem[] = [
     description: 'Costillar premium de cocción lenta a la brasa.',
     price: 7800,
     category: 'Parrilla',
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=2069&auto=format&fit=crop'
+    image: '/images/asado.jpg'
   },
   {
     id: 'p3',
@@ -56,7 +56,7 @@ export const MENU_DATA: MenuItem[] = [
     description: 'Chorizo de cerdo con chimichurri casero en pan de campo.',
     price: 2800,
     category: 'Parrilla',
-    image: 'https://images.unsplash.com/photo-1534120247760-c44c3e4a62f1?q=80&w=2070&auto=format&fit=crop'
+    image: '/images/choripan.jpg'
   },
   // Bebidas
   {
@@ -73,7 +73,7 @@ export const MENU_DATA: MenuItem[] = [
     description: 'Cerveza tirada, amargor medio y aroma frutal.',
     price: 1500,
     category: 'Bebidas',
-    image: 'https://images.unsplash.com/photo-1535959913415-c35332d6aff9?q=80&w=2070&auto=format&fit=crop'
+    image: '/images/cerveza.jpg'
   },
   {
     id: 'b3',
@@ -81,7 +81,7 @@ export const MENU_DATA: MenuItem[] = [
     description: 'Refrescante, con jengibre y miel.',
     price: 1200,
     category: 'Bebidas',
-    image: 'https://images.unsplash.com/photo-1542332213-9b5a5a3fab35?q=80&w=2070&auto=format&fit=crop'
+    image: '/images/limonada.jpg'
   },
   // Postres
   {
@@ -90,7 +90,7 @@ export const MENU_DATA: MenuItem[] = [
     description: 'Casero, con dulce de leche y crema doble.',
     price: 1500,
     category: 'Postres',
-    image: 'https://images.unsplash.com/photo-1511910849309-0d5f2cddcada?q=80&w=2070&auto=format&fit=crop'
+    image: '/images/flan.jpg'
   },
   {
     id: 'd2',
@@ -98,7 +98,7 @@ export const MENU_DATA: MenuItem[] = [
     description: 'Caramelizado, servido con helado de vainilla.',
     price: 1800,
     category: 'Postres',
-    image: 'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?q=80&w=2070&auto=format&fit=crop'
+    image: '/images/panqueque.jpg'
   }
 ];
 
