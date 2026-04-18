@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MENU_DATA, CATEGORIES, MenuItem } from '@/data/menu';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Plus, ShoppingCart, Bell } from 'lucide-react';
@@ -26,7 +26,7 @@ export default function MenuDisplay() {
         staggerChildren: 0.1,
       },
     },
-  };
+  } as const;
 
   const itemVariants = {
     hidden: { y: 20, opacity: 0 },
@@ -39,7 +39,7 @@ export default function MenuDisplay() {
         damping: 15,
       },
     },
-  };
+  } as const;
 
   const notifyWaiter = () => {
     toast.success('Pidiendo atención del mozo...', {
