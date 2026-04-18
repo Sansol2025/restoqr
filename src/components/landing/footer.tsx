@@ -35,7 +35,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-gold" />
-                +54 11 1234 5678
+                +54 380 480 2554
               </li>
             </ul>
           </div>
