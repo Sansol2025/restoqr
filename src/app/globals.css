@@ -9,7 +9,8 @@
   --color-slate-card: #171717;
   --color-slate-surface: #1E1E1E;
   
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
   --font-mono: var(--font-geist-mono);
 }
 
