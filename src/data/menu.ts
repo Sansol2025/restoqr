@@ -4,7 +4,11 @@ export interface MenuItem {
   description: string;
   price: number;
   category: string;
-  image?: string;
+  image: string;
+}
+
+export interface CartItem extends MenuItem {
+  quantity: number;
 }
 
 export const MENU_DATA: MenuItem[] = [

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { Toaster } from "sonner";
 import "./globals.css";
+import { CartProvider } from "@/components/providers/cart-provider";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -43,10 +44,11 @@ export default function RootLayout({
       className={`${inter.variable} ${playfair.variable} h-full antialiased dark scroll-smooth`}
     >
       <body className="min-h-full flex flex-col bg-black text-white font-sans">
-        {children}
-        <Toaster position="top-center" richColors theme="dark" />
+        <CartProvider>
+          {children}
+          <Toaster position="top-center" expand={true} richColors closeButton />
+        </CartProvider>
       </body>
     </html>
   );
 }
-
